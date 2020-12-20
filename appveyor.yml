@@ -13,7 +13,7 @@ install:
 test_script:
   # output useful for debugging
 
-  - node--version
+  - node -version
   - npm -version
 
   - npm test
